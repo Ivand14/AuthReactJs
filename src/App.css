@@ -1,0 +1,78 @@
+
+.containerForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2,h3{
+  text-align: center;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgb(221, 168, 98);
+  width: 25rem;
+  margin: 1rem 30rem;
+}
+
+.input{
+  border-radius: .5rem;
+  text-align: center;
+  border:solid 1px darkgrey;
+}
+
+.registrarse{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bi{
+  padding: .3rem;
+}
+
+.box{
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  border: 1px solid gainsboro;
+}
+
+.imgNav{
+  border-radius: 50%;
+  height: 3rem;
+}
+
+.btnNav{
+  margin: 2rem;
+}
+
+.navbar{
+  display: flex;
+  align-items: center!important;
+  align-content: center !important;
+  height: 5rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.me-auto{
+  display: flex;
+  align-items: center;
+}
+
+.nav-navbar{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+
